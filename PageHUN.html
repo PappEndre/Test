@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<title>EZT CSINALOD</title>
+<script
+	  src="https://code.jquery.com/jquery-3.3.1.min.js"
+	  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	  crossorigin="anonymous">
+</script>
+<style>
+	body {
+		background-size:100%;
+		margin: auto;
+		position: relative;
+		overflow: hidden;
+	    -webkit-font-smoothing: antialiased;
+	    background-image:url(wp.jpg);
+	    -webkit-background-size: cover;
+	    background-size: cover;
+	}
+	.button {
+	    position: absolute;
+	    top: 10px;
+	    right: 150px;
+
+	    background-color: #4CAF50;
+	    border: none;
+	    color: white;
+	    padding: 15px 15px;
+	    text-align: center;
+	    text-decoration: none;
+	    display: inline-block;
+	    font-size: 16px;
+	    margin: 4px 2px;
+	    cursor: pointer;
+	}
+	h1 {color: white;
+	    text-align: center;
+	    }
+	p {font-family: verdana;
+	   font-size: 20px;
+		}
+</style>
+<body  >
+
+	<a href="PageRUS.html" target="_blank">
+	    <img src="FlagRUS.png"  style="width:30px;height:30px;border:0;position: absolute;top:5px;right:16px">
+	</a>
+	<a href="PageENG.html" target="_blank">
+	    <img src="FlagENG.png"  style="width:30px;height:30px;border:0;position: absolute;top:5px;right:47px">
+	</a>
+	<a href="PageHUN.html" target="_blank">
+	    <img src="FlagHUN.png"  style="width:30px;height:30px;border:0;position: absolute;top:5px;right:78px">
+	</a>
+	<form action="dbconnect.php" method="POST">
+		<br>
+		<input type="text" id="username" ><br><br>
+		<input type="password" id="password"><br><br>
+		<input type="submit"  value="Submit">
+	</form>
+
+
+
+</body>
+</html>
